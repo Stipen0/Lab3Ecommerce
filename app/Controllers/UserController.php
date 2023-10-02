@@ -73,4 +73,8 @@ class UserController extends BaseController
             return redirect()->to('/signin');
         }
     }
+    public function ecommerce()
+    {
+        return view('ecommerce');
+    }
 }
