@@ -9,3 +9,4 @@ $routes->get('/', 'Home::index');
 $routes->get('/register', 'UserController::register');
 $routes->get('/signin', 'UserController::Login');
 $routes->get('/ecommerce', 'UserController::ecommerce');
+$routes->get('/admin', 'UserController::admin');

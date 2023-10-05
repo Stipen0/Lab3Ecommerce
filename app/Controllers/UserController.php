@@ -77,4 +77,7 @@ class UserController extends BaseController
     {
         return view('ecommerce');
     }
+    public function admin(){
+        return view('admin');
+    }
 }
